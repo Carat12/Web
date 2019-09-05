@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="frame.css" />
+    <title>Personal Information</title>
+    <script src="frame.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="menu">
+        <!--div class="menu_line"></div-->
+        <div class="menu_div" id="personal" style="background-color: rgb(136,23,152)" onclick="menuClick('personal')">
+            <img class="menu_img" id="menu_img_personal" src="image/personal.png">
+        </div>
+        <div class="menu_div"  id="interest" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('interest')">
+            <img class="menu_img" src="image/interest.png">
+        </div>
+        <div class="menu_div"  id="portfolio" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('portfolio')">
+            <img class="menu_img" src="image/portfolio.png">
+        </div>
+        <div class="menu_div"  id="map" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('map')">
+            <img class="menu_img" id="menu_img_map" src="image/map.png">
+        </div>
+        <div class="menu_div" id="contact" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('contact')">
+            <img class="menu_img" id="menu_img_contact" src="image/contact.png">
+        </div>
+    </div>
+    <div class="content">
+        <div class="con_background"></div>
+        <div id="con_wel">
+            <p class="wel">Welcome</p>
+            <h4>FIND WHO I AM IN MY HOMEPAGE.</h4>
+        </div>
+        <div class="con_card">
+            <img id = "con_img_per" src = "image/per.png" alt = "My Picture">
+            <div class="con_per1">
+                <h2 id="title1">Name</h2>
+                <p>R. Zhu</p>
+                <p style="font-size: 28px">(This picture is an anime character I Like)</p>
+            </div>
+            <div class="con_per2">
+                <h2>Description</h2>
+                <p>The first-year graduate student in Geographic Information Science (<b>GIS</b>) in geography department, University at Buffalo.</p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="white">
+        <div id="white_menu"></div>
+        <div id="footer1">
+            <p>Copyright &copy; 2018 Rui Zhu, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="frame.css" />
+    <title>Porfolio</title>
+    <script src="frame.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="menu">
+        <!--div class="menu_line"></div-->
+        <div class="menu_div" id="personal" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('personal')">
+            <img class="menu_img" id="menu_img_personal" src="image/personal.png">
+        </div>
+        <div class="menu_div" id="interest" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('interest')">
+            <img class="menu_img" src="image/interest.png">
+        </div>
+        <div class="menu_div"  id="portfolio" style="background-color: rgb(136,23,152)" onclick="menuClick('portfolio')">
+            <img class="menu_img" src="image/portfolio.png">
+        </div>
+        <div class="menu_div"  id="map" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('map')">
+            <img class="menu_img" id="menu_img_map" src="image/map.png">
+        </div>
+        <div class="menu_div" id="contact" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('contact')">
+            <img class="menu_img" id="menu_img_contact" src="image/contact.png">
+        </div>
+    </div>
+    <div class="content">
+        <div class="con_background"></div>
+        <div class="con_background_white"></div>
+        <div id="con_wel">
+            <p class="wel">Portfolio</p>
+            <h4>FIND WHAT I HAVE DONE RECENTLY.</h4>
+        </div>
+        <div class="con_card" id="card_por1">
+            <h2 class="title2">Recent Project</h2>
+            <p id="project_des1">The Segregation of Blacks from Whites by County</p>
+            <a href="p1.html" target="_blank"><img id="con_img_model" src="image/portfolio1.PNG"></a>
+        </div>
+        <div class="con_card" id="card_por2">
+            <h2 class="title2">Recent Project</h2>
+            <p id="project_des2">Modeling Residential Segregation.</p>
+            <video id="video_model" src="image/model.mp4" autoplay="autoplay" loop="loop">Your browser does not support the video tag.</video>
+        </div>
+    </div>
+    <div class="white" id="white_por">
+        <div id="white_menu"></div>
+        <div id="footer3">
+            <p>Copyright &copy; 2018 Rui Zhu, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

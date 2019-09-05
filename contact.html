@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="frame.css" />
+    <title>Contact</title>
+    <script src="frame.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="menu">
+        <!--div class="menu_line"></div-->
+        <div class="menu_div" id="personal" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('personal')">
+            <img class="menu_img" id="menu_img_personal" src="image/personal.png">
+        </div>
+        <div class="menu_div" id="interest" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('interest')">
+            <img class="menu_img" src="image/interest.png">
+        </div>
+        <div class="menu_div"  id="portfolio" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('portfolio')">
+            <img class="menu_img" src="image/portfolio.png">
+        </div>
+        <div class="menu_div"  id="map" onmouseover="menuHover(this)" onmouseout="menuOut(this)" onclick="menuClick('map')">
+            <img class="menu_img" id="menu_img_map" src="image/map.png">
+        </div>
+        <div class="menu_div" id="contact" style="background-color: rgb(136,23,152)" onclick="menuClick('contact')">
+            <img class="menu_img" id="menu_img_contact" src="image/contact.png">
+        </div>
+    </div>
+    <div class="content" id="content_contact">
+        <div class="con_background" id="con_background_contact"></div>
+        <div id="con_wel">
+            <p class="wel">Contact</p>
+            <h4>FIND HOW TO CONTACT ME IN MY HOMEPAGE.</h4>
+        </div>
+        <div class="con_card" id="card_contact">
+            <img id="con_img_address" src="image/address.jpg" alt="address">
+            <h2 id="title3">Address</h2>
+            <address>
+                Rui Zhu<br>
+                Department of Geography<br>
+                University at Buffalo<br>
+                State University of New York<br>
+                Buffalo, NY 14261, USA
+            </address><br>
+            <a href="mailto:rzhu4@buffalo.edu" title="rzhu4@buffalo.edu">
+                <img id="con_img_email" src="image/email.jpg" alt="rzhu4@buffalo.edu">
+            </a>
+        </div>
+    </div>
+    <div class="white" id="white_contact">
+        <div id="white_menu"></div>
+        <div id="footer5">
+            <p>Copyright &copy; 2018 Rui Zhu, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 # Web
-This is a product of my course __Web Programming for GIS__ in UB. To see the website, please refer to the website link given above. There are a total of _five pages_ in my personal website. A menu bar on the left enables the switch between pages.
+This is a product of my course __Web Programming for GIS__ in UB. To see the website, please refer to the website link given next to the repository description. There are a total of _five pages_ in my personal website. A menu bar on the left enables the switch between pages.
 ## Home Page
 Show a picture with a short description
 ## Interest Page
